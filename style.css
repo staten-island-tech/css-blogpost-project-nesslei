@@ -1,0 +1,12 @@
+body {
+    background-image: url(media/beach.jpg);
+}
+
+  .main-header {
+    color:blue;  
+    font-size: 100px; 
+    padding: 10px 10px;
+    background-color: pink;  
+
+  }
+  
