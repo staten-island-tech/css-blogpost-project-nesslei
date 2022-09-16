@@ -1,12 +1,41 @@
 body {
     background-image: url(media/beach.jpg);
+    text-align: center;
 }
 
   .main-header {
-    color:blue;  
+    color:rgb(164, 74, 143);;  
     font-size: 100px; 
-    padding: 10px 10px;
-    background-color: pink;  
+    padding: 10px 10px; 
+    text-align: center;
+  }
 
+  .babyone {
+    background-color: pink;
+    display: flex; 
+    flex-direction: column; 
+    width: 750px;
+    border: 15px solid rgb(164, 74, 143);
+    padding: 50px;
+    margin: 20px;
   }
   
+  .babytwo {
+    background-color: pink;
+    display: flex; 
+    flex-direction: column; 
+    width: 750px;
+    border: 15px solid rgb(164, 74, 143);
+    padding: 50px;
+    margin: 20px;
+  }
+
+  .babythree {
+    background-color: pink;
+    display: flex; 
+    flex-direction: column; 
+    width: 750px;
+    border: 15px solid rgb(164, 74, 143);
+    padding: 50px;
+    margin: 20px;
+  }
