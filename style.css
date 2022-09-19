@@ -1,41 +1,26 @@
 body {
+     font-family: 'Noto Serif Display', serif;
     background-image: url(media/beach.jpg);
     text-align: center;
 }
 
   .main-header {
-    color:rgb(164, 74, 143);;  
+    color:rgb(164, 74, 143);  
     font-size: 100px; 
     padding: 10px 10px; 
-    text-align: center;
+    align-items: center;
+    justify-content: center;
   }
 
-  .babyone {
+  .baby {
     background-color: pink;
     display: flex; 
     flex-direction: column; 
-    width: 750px;
-    border: 15px solid rgb(164, 74, 143);
-    padding: 50px;
-    margin: 20px;
+    border: 10px solid rgb(164, 74, 143);
+    width: 50%; 
+    border-radius: 25px;
+    padding: 30px;
+
+    align-items: center;
   }
   
-  .babytwo {
-    background-color: pink;
-    display: flex; 
-    flex-direction: column; 
-    width: 750px;
-    border: 15px solid rgb(164, 74, 143);
-    padding: 50px;
-    margin: 20px;
-  }
-
-  .babythree {
-    background-color: pink;
-    display: flex; 
-    flex-direction: column; 
-    width: 750px;
-    border: 15px solid rgb(164, 74, 143);
-    padding: 50px;
-    margin: 20px;
-  }
