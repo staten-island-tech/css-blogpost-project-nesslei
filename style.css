@@ -1,6 +1,5 @@
 body {
-     font-family: 'Noto Serif Display', serif;
-    background-image: url(media/beach.jpg);
+    font-family: 'Noto Serif Display', serif;
     text-align: center;
 }
 
@@ -17,10 +16,10 @@ body {
     display: flex; 
     flex-direction: column; 
     border: 10px solid rgb(164, 74, 143);
-    width: 50%; 
     border-radius: 25px;
     padding: 30px;
-
+    justify-content: center; 
     align-items: center;
+    margin: 100px; 
   }
   
